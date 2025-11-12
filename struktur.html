@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Informasi Seminar Tugas Akhir - SISTA</title>
+    <link rel="stylesheet" href="/style/design.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Sistem Informasi Seminar Tugas Akhir - SISTA</h1>
+    
+    <nav style="text-align: right;">
+        <a href="#">Home</a>
+        >
+        <a href="#">Schedule</a>
+        >
+        <a href="#">Detail Jadwak</a>
+        >
+        <a href="#">Daftar Peserta</a>
+    </nav>
+    <section class="info-seminar">
+        <p><strong>MAHASISWA SEMINAR : Diego Armando (0110228764)</strong></p>
+        <p><strong>JUDUL : Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework</strong></p>
+        <p><strong>WAKTU : Rabu, 12 November 2025</strong></p>
+    </section>
+    <fieldset class="border-form">
+    <legend>Form Peserta Seminar</legend>
+        <form>
+            <label for="nim">nim :</label>
+            <input type="text" id="nim" name="nim"><br><br>
+            <label for="nama">Nama :</label>
+            <input type="text" id="nama" name="nama"><br><br>
+            <label for="prodi">Prodi :</label>
+            <select id="prodi" name="prodi">
+                <option value="Sistem Informasi">Sistem Informasi</option>
+                <option value="Teknik Informatika">Teknik Informatika</option>
+                <option value="Bisnis Digital">Bisnis Digital</option>
+            </select><br><br>
+
+            <label>Program :
+            <input type="radio" name="Program" value="D3"> D3
+            <input type="radio" name="Program" value="S1 Reguler"> S1 Reguler
+            <input type="radio" name="Program" value="S1 FastTrack"> S1 FastTrack
+            <input type="radio" name="Program" value="S2"> S2
+            <br><br>
+            </label>
+            <button type="submit">Daftar</button>
+        </form>
+    </fieldset>
+</body>
+</html>
